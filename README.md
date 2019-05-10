@@ -15,6 +15,13 @@ The control's value is valid           ng-valid              ng-invalid
 
 Template ref points to dom to access touched/untouched... #name="ngModel" then name.touched
 
+userForm.form.valid --> for whole form
+
+class="form-group" --> class="form-control"
+
+Reactive --> more control over validation logic, good for complex forms, unit testable
+Template-driven --> good for simple forms, simple validations, easier to create, less code
+
 
 
 
